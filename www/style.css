@@ -1,0 +1,26 @@
+.heading{
+    margin-top: 1800px;
+    margin-left: 400px;
+    color:red;
+    background-color: powderblue;
+}
+
+footer{
+    margin-top: 500px;
+    color: darkslategrey;
+    margin-left: 40%;
+}
+
+form{
+    margin-left: 200px;
+    margin-left: 4in;
+   border-color: blueviolet;
+   border-radius: 80px;
+}
+input{
+    background-color: blanchedalmond;
+}
+button{
+    color: brown;
+    border-radius: 5%;
+}
