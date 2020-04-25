@@ -1,12 +1,22 @@
 {
-  "name": "Weather-webserver",
+  "name": "weather-webserver",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "scripts": {
-    "start": "node app.js"
+  "engines": {
+    "node" : "12.16.2"
   },
-  "keywords": [],
+  "scripts": {
+    "start" : "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pawankch/weather-forecast.git"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pawankch/weather-forecast/issues"
+  },
+  "homepage": "https://github.com/Pawankch/weather-forecast#readme"
 }
