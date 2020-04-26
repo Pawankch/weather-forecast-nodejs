@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node app.js"
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Pawankch/weather-forecast.git"
