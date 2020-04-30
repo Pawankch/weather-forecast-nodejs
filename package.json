@@ -1,7 +1,6 @@
 {
-  "name": "Weather-webserver",
+  "name": "weather-webserver",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -22,5 +21,7 @@
     "hbs": "^4.1.1",
     "path": "^0.12.7",
     "request": "^2.88.2"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

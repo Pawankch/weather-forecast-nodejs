@@ -4,24 +4,79 @@
         <title>
 
         </title>
-         <link rel="stylesheet" href="/style.css">
+         
          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    
+        <link rel="stylesheet" href="/style.css">
     </head>
     <body>
-      <hi class="heading"> Weather Application</hi>
-      <form>
-        <div class="form-group">
-          <!--<label for=""></label> -->
-       <input type="text" placeholder="Location" id="location" >
-       <button type="submit">Search</button>
-       <p></p>
-      </form>
+      <header>
+        <div class="header">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">
+                  <div class="top-head mt-4">
+                    <h2 class="heading">Weather Application</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
+      </header>
+      <main>
+        <div class="main-sec">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-12 col-sm-8 col-md-7 col-lg-6">
+                <div class="form-div">
+                  <form class="form" action="">
+                    <div class="form-group text-center">
+                      <label class="city-label" for="laction">Enter City Name to get the Temperature</label>
+                      <input type="text" class="form-control" placeholder="Location" id="location">
+                    </div>
+                    <div class="form-group text-center">
+                      <input type="submit" class="btn btn-outline-danger" value="Search">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+            <div class="row row-content">
+              <div class="col-12 col-sm-4 offset-sm-1 col-lg-3 offset-lg-2">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Location</h4>
+                  </div>
+                  <div class="card-body">
+                    <h3 id="locationDetailer"></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-sm-4 offset-sm-2 col-lg-3">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Temperature</h4>
+                  </div>
+                  <div class="card-body">
+                    <h3 id="tempDetailer"></h3><h3><sup>o</sup>C</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
        
-
-
-      <footer>Created by Pawan Chaudhary</footer>
+      <footer>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 text-center">
+                <p class="createdby">Created by Pawan Chaudhary</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
 
   <script src="/client.js"></script>
 
