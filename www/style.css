@@ -1,26 +1,76 @@
-.heading{
-    margin-top: 1800px;
-    margin-left: 400px;
-    color:red;
-    background-color: powderblue;
+body{
+    background-color: #181a1b;
+    color: #fff;
+}
+.top-head {
+    padding: 12px 0px;
+    box-shadow: -4px -2px 5px darkmagenta,4px 2px 10px darkgoldenrod;
+    text-align: center;
+    border-radius: 20px;
+    color: darkviolet;
 }
 
-footer{
-    margin-top: 500px;
-    color: darkslategrey;
-    margin-left: 40%;
+input.form-control{
+    background-color: #181a1b;
+    border-color: cadetblue;
+    color: #fff;
 }
 
-form{
-    margin-left: 200px;
-    margin-left: 4in;
-   border-color: blueviolet;
-   border-radius: 80px;
+input.form-control:focus{
+    background-color: #181a1b;
+    border-color: #007bff;
+    color: #fff;
 }
-input{
-    background-color: blanchedalmond;
+
+
+input.form-control::placeholder{
+    color: #fff;
 }
-button{
-    color: brown;
-    border-radius: 5%;
+
+
+.main-sec {
+    padding: 25px 0;
+}
+
+.city-label{
+    font-size: 80%;
+    font-weight: bold;
+}
+
+.card {
+    background-color: #181a1b;
+    border-radius: 20px;
+    text-align: center;
+    height: 140px;
+    box-shadow: 0px 5px 2px deeppink, 0px -1px 3px darkmagenta;
+
+}
+
+.card-header {
+    border-top-right-radius: 20px !important;
+    border-top-left-radius: 20px !important;
+    background-color: #181a1b;
+    border: none;
+}
+
+.card-body h3{
+    display: inline;
+}
+
+.row-content {
+    padding: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.createdby {
+
+    font-size: 12px;
+    border: 1px solid darkmagenta;
+    padding: 7px 20px;
+    width: max-content;
+    border-radius: 5px;
+    color: darkmagenta;
+    font-weight: bold;
+    margin: 0 auto;
 }
