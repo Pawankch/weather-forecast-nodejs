@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/Pawankch/weather-forecast#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "hbs": "^4.1.1",
     "path": "^0.12.7",
     "request": "^2.88.2"
